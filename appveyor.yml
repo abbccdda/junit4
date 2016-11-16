@@ -8,7 +8,6 @@ install:
   - cmd: java -version
 
 test_script:
-  - mvn test
   - mvn verify javadoc:javadoc site:site
 
 cache:
